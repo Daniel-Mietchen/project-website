@@ -104,11 +104,9 @@ var options_pubmed = {
                 {id: "most-relevant", text: "Most relevant"}
                 , {id: "most-recent", text: "Most recent"}
             ]},
-        {id: "article_types", multiple: true, width: "140px", name: "Article types", type: "dropdown", display: "none"
+        {id: "article_types", multiple: true, name: "Article types", type: "dropdown", display:"none"
             , fields: [
-                {id: "adaptive clinical trial", text: "Adaptive Clinical Trial", selected: true}
-                , {id: "addresses", text: "Addresses", selected: true}
-                , {id: "autobiography", text: "Autobiography", selected: true}
+                {id: "autobiography", text: "Autobiography", selected: true}
                 , {id: "bibliography", text: "Bibliography", selected: true}
                 , {id: "biography", text: "Biography", selected: true}
                 , {id: "book illustrations", text: "Book Illustrations", selected: true}
@@ -136,9 +134,7 @@ var options_pubmed = {
                 , {id: "editorial", text: "Editorial", selected: true}
                 , {id: "electronic supplementary materials", text: "Electronic Supplementary Materials", selected: true}
                 , {id: "english abstract", text: "English Abstract", selected: true}
-                , {id: "equivalence trial", text: "Equivalence Trial", selected: true}
                 , {id: "ephemera", text: "Ephemera", selected: true}
-                , {id: "expression of concern", text: "Expression of Concern", selected: true}
                 , {id: "evaluation studies", text: "Evaluation Studies", selected: true}
                 , {id: "festschrift", text: "Festschrift", selected: true}
                 , {id: "government publications", text: "Government Publications", selected: true}
